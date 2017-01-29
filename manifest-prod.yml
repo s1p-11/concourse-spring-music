@@ -3,4 +3,5 @@ applications:
 - name: spring-music
   memory: 512M
   instances: 1
-  host: bb-spring-music
+  host: s1p-11-spring-music
+  buildpack: java_buildpack
